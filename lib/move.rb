@@ -15,7 +15,7 @@ board[input] = token
 end
 
 def input_to_index(input = "1-9")
-  "5".to_i - 1
+  input.to_i - 1
 end
 
 
